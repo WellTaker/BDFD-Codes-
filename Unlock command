@@ -1,0 +1,14 @@
+Dont make videos Of the code without my
+Permission!
+-----------------------
+
+$nomention
+$onlyIf[$guildID!=;]
+$onlyBotPerms[managechannels;Please, to execute this, give me 'Manage channels' permission!]
+$nomention
+$modifyChannelPerms[$channelID;+sendmessages;$guildID]
+$title[Unlock]
+$description[✅ Text channel unlocked by $username]
+$onlyAdmin[**You cant use this command!!**]
+$suppressErrors[ERROR]
+$cooldown[5s;]
