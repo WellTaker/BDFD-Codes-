@@ -1,0 +1,15 @@
+dont make videos Of the code without 
+My permission!
+---------------- Enjoy!
+
+$nomention
+$onlyIf[$guildID!=;]
+$onlyBotPerms[managechannels;Allow the **Manage channels**! permission to lock!]
+$nomention
+$addReactions[✓]
+$modifyChannelPerms[$channelID;-sendmessages;$guildID]
+$title[Lock]
+$description[✓Channel locked by $username]
+$onlyAdmin[**Only ADMs can use this command!**]
+$suppressErrors[Error detected!]
+$cooldown[5s;]
